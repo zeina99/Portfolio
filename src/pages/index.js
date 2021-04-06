@@ -2,11 +2,15 @@ import * as React from "react";
 
 import { Link } from "gatsby";
 
+import LandingView from "../components/LandingView/LandingView";
+import "./../styles/global.css";
+import "@fontsource/montserrat";
 // markup
 const IndexPage = () => {
   return (
     <div>
-      <Link to="resume.pdf">Resume</Link>
+      <LandingView />
+      <a href="resume.pdf">Resume</a>
     </div>
   );
 };

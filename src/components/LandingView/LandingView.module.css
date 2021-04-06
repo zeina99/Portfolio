@@ -1,0 +1,10 @@
+.Landing-view {
+  min-height: 100vh;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#name {
+  font-size: 5rem;
+}
