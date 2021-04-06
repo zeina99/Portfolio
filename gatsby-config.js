@@ -3,6 +3,7 @@ module.exports = {
     title: "Portfolio",
   },
   plugins: [
+    "gatsby-plugin-smoothscroll",
     "gatsby-plugin-gatsby-cloud",
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",

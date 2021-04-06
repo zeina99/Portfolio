@@ -1,0 +1,8 @@
+.header {
+  color: var(--headingColor);
+  font-size: 3.2rem;
+}
+.projectWrapper {
+  width: 80%;
+  margin: auto;
+}

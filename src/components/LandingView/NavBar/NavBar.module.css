@@ -1,0 +1,11 @@
+#navbar {
+  display: flex;
+  flex-direction: row-reverse;
+}
+#navitems {
+  display: flex;
+  list-style: none;
+}
+#navitems > li {
+  padding: 10px;
+}
