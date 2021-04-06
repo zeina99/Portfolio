@@ -1,7 +1,8 @@
-import { Link } from "gatsby";
 import React from "react";
-import * as styles from "./NavBar.module.css";
+// import { AnchorLink } from "gatsby-plugin-anchor-links";
 
+import * as styles from "./NavBar.module.css";
+import { Link } from "gatsby";
 function NavBar() {
   return (
     <div id={styles.navbar}>

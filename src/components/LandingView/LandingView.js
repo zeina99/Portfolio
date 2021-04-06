@@ -5,7 +5,7 @@ import { StaticImage } from "gatsby-plugin-image";
 import * as styles from "./LandingView.module.css";
 function LandingView() {
   return (
-    <div id={styles.LandingView}>
+    <div className={styles.LandingView} id="LandingView">
       <NavBar />
       <div className={styles.maintext}>
         <h1 id={styles.name}>

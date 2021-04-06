@@ -1,0 +1,19 @@
+.card {
+  max-width: 25vw;
+  background-color: var(--cardColor);
+  font-size: larger;
+  border-radius: 10px;
+  padding: 1rem;
+}
+.buttonLink {
+  background-color: var(--buttonColor);
+  color: white;
+  padding: 0.4rem 0.5rem;
+  border-radius: 15%;
+  font-size: large;
+  cursor: pointer;
+}
+.outsideLinks {
+  display: flex;
+  justify-content: center;
+}

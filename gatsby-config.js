@@ -3,7 +3,8 @@ module.exports = {
     title: "Portfolio",
   },
   plugins: [
-    "gatsby-plugin-smoothscroll",
+    // "gatsby-plugin-smoothscroll",
+    // "gatsby-plugin-anchor-links",
     "gatsby-plugin-gatsby-cloud",
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
@@ -38,5 +39,12 @@ module.exports = {
         },
       },
     },
+    // {
+    //   resolve: "gatsby-plugin-anchor-links",
+    //   options: {
+    //     // offset: -100,
+    //     // duration: 1000,
+    //   },
+    // },
   ],
 };
