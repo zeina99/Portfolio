@@ -1,7 +1,5 @@
 import * as React from "react";
 
-import { Link } from "gatsby";
-
 import LandingView from "../components/LandingView/LandingView";
 import "./../styles/global.css";
 import "@fontsource/montserrat";
