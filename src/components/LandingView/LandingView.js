@@ -3,6 +3,7 @@ import React from "react";
 import NavBar from "./NavBar/NavBar";
 import { StaticImage } from "gatsby-plugin-image";
 import * as styles from "./LandingView.module.css";
+
 function LandingView() {
   return (
     <div className={styles.LandingView} id="LandingView">
