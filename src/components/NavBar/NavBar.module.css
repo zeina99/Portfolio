@@ -1,0 +1,20 @@
+#navbar {
+  display: flex;
+  flex-direction: row-reverse;
+  background: var(--headingColor);
+  color: white;
+}
+#navitems {
+  display: flex;
+  list-style: none;
+}
+#navitems > li {
+  padding: 15px;
+  font-weight: bold;
+}
+#navitems > li > a{
+  color: white;
+}
+#navitems > li > a:hover{
+  color: var(--cardColor);
+}
