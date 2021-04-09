@@ -23,7 +23,15 @@
 }
 .links {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
 }
-#githubImg {
+#lastDiv {
+  align-self: center;
+  cursor: pointer;
+}
+#downwardArrow {
+  margin-bottom: 10vh;
+  color: var(--headingColor);
+  font-size: 3rem;
 }

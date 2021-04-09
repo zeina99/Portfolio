@@ -13,7 +13,6 @@ const IndexPage = () => {
     <div>
       <LandingView />
       <Projects />
-      <a href="resume.pdf">Resume</a>
     </div>
   );
 };
