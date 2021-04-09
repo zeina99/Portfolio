@@ -2,3 +2,6 @@ node_modules/
 .cache/
 public
 .DS_Store
+data/images/favicon-temp.png
+data/images/favicon2.png
+data/images/favicon.png

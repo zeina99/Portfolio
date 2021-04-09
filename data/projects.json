@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Delivery Scheduler",
+    "description": "System which produces order scheduling reports and has CRUD functionality for employee records",
+    "githubLink": "https://github.com/zeina99/Delivery-System",
+    "imageUrl": "./images/truck.jpeg",
+    "techUsed": ["Java", "SQL"],
+    "liveUrl": "",
+    "note": "",
+    "projectType": "University Team Project"
+  },
+  {
+    "title": "Youtube Search Clone",
+    "description": "Youtube Search Clone which utilizes the Youtube API that allows the user to search for and play videos",
+    "githubLink": "https://github.com/zeina99/Youtube-Search-Clone",
+    "imageUrl": "./images/YoutubeCloneSS.png",
+    "techUsed": ["HTML", "CSS", "JavaScript"],
+    "liveUrl": "https://stupefied-spence-d09473.netlify.app",
+    "note": "Note: Screenshot above is taken from the actual project",
+    "projectType": "Personal Project"
+  },
+  {
+    "title": "Clinic Management System",
+    "description": "System which has 3 types of users (patients, doctors and admins) which allows patients to book appointments and allows doctors to approve appointments",
+    "githubLink": "https://github.com/zeina99/Clinic-Management-System",
+    "imageUrl": "./images/clinic.jpeg",
+    "techUsed": ["C#", "SQL", "ASP.NET Webforms" ],
+    "liveUrl": "",
+    "note": "",
+    "projectType": "University Individual Project"
+  },
+  {
+    "title": "QA - Reasearch Papers - Web applicaton",
+    "description": "A web application using pretrained BERT QA model which performs extractive question answering by question user input on research pdf uploaded by the user.",
+    "githubLink": "https://github.com/zeina99/QnA-research-papers",
+    "imageUrl": "./images/QA.png",
+    "techUsed": ["Python", "Flask","SQL", "HTML", "CSS"],
+    "liveUrl": "",
+    "note": "",
+    "projectType": "Personal Project"
+  },
+  {
+    "title": "Face Recognition Attendance GUI System",
+    "description": "A face recognition attendance system which marks students as present or absent on an excel sheet by recognizing faces through a webcam",
+    "githubLink": "https://github.com/zeina99/face-recognition-attendance",
+    "imageUrl": "./images/face.jpg",
+    "techUsed": ["Python"],
+    "liveUrl": "",
+    "note": "",
+    "projectType": "University Team Project"
+  }
+]
