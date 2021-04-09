@@ -16,11 +16,15 @@ let ProjectCard = ({
   return (
     <div className={styles.card}>
       <GatsbyImage image={imageUrl} alt="Project" />
-      <div className={styles.note}>
-        <i>{note}</i>
-      </div>
-      <h1>{title}</h1>
-        <p><em><b>{projectType}</b></em></p>
+
+      <i className={styles.note}>{note}</i>
+
+      <h2>{title}</h2>
+      <p>
+        <em>
+          <b>{projectType}</b>
+        </em>
+      </p>
       <p>{about}</p>
       <p>
         {" "}
