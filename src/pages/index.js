@@ -10,10 +10,11 @@ import Projects from "../components/Projects/Projects";
 // markup
 const IndexPage = () => {
   return (
-    <div>
+    <main>
+      <title>Portfolio</title>
       <LandingView />
       <Projects />
-    </div>
+    </main>
   );
 };
 
