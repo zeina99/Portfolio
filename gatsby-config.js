@@ -1,17 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: "Hi",
+    title: "Portfolio",
   },
   plugins: [
-
     {
       resolve: "gatsby-plugin-gatsby-cloud",
       options: {
-
-
-        allpageHeader: ["cache-control: public, max-age=0, must-revalidate"]
-
-
+        allpageHeader: ["cache-control: public, max-age=0, must-revalidate"],
       },
     },
     "gatsby-plugin-image",
@@ -40,14 +35,5 @@ module.exports = {
         cache_busting_mode: "none",
       },
     },
-
-    // {
-    //   resolve: "gatsby-plugin-offline",
-    //   options: {
-    //     workboxConfig: {
-    //       globPatterns: ["**/icon-path*"],
-    //     },
-    //   },
-    // },
   ],
 };
