@@ -3,15 +3,10 @@ module.exports = {
     title: "Portfolio",
   },
   plugins: [
-
     {
       resolve: "gatsby-plugin-gatsby-cloud",
       options: {
-
-
-        allpageHeader: ["cache-control: public, max-age=0, must-revalidate"]
-
-
+        allpageHeader: ["cache-control: public, max-age=0, must-revalidate"],
       },
     },
     "gatsby-plugin-image",
@@ -33,21 +28,10 @@ module.exports = {
         name: `GatsbyJS`,
         short_name: `GatsbyJS`,
         start_url: `/`,
-        background_color: `#f7f0eb`,
-        theme_color: `#a2466c`,
         display: `standalone`,
         icon: "data/images/favicon-final.png",
-        cache_busting_mode: "none",
+        cache_busting_mode: "name",
       },
     },
-
-    // {
-    //   resolve: "gatsby-plugin-offline",
-    //   options: {
-    //     workboxConfig: {
-    //       globPatterns: ["**/icon-path*"],
-    //     },
-    //   },
-    // },
   ],
 };
