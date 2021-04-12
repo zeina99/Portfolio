@@ -3,7 +3,17 @@ module.exports = {
     title: "Hi",
   },
   plugins: [
-    "gatsby-plugin-gatsby-cloud",
+
+    {
+      resolve: "gatsby-plugin-gatsby-cloud",
+      options: {
+
+
+        allpageHeader: ["cache-control: public, max-age=0, must-revalidate"]
+
+
+      },
+    },
     "gatsby-plugin-image",
     "gatsby-plugin-smoothscroll",
     "gatsby-plugin-sharp",
@@ -27,7 +37,7 @@ module.exports = {
         theme_color: `#a2466c`,
         display: `standalone`,
         icon: "data/images/favicon-final.png",
-        //cache_busting_mode: "none",
+        cache_busting_mode: "none",
       },
     },
 
