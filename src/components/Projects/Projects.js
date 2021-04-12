@@ -9,6 +9,7 @@ let Projects = () => {
       allProjectsJson {
         edges {
           node {
+            id
             title
             description
             githubLink
@@ -37,6 +38,7 @@ let Projects = () => {
         {projects.map(({ node: project }) => {
           return (
             <ProjectCard
+              key={project.id}
               title={project.title}
               about={project.description}
               techUsed={project.techUsed}
@@ -44,7 +46,7 @@ let Projects = () => {
               githubLink={project.githubLink}
               imageUrl={project.imageUrl.childImageSharp.gatsbyImageData}
               note={project.note}
-              projectType = {project.projectType}
+              projectType={project.projectType}
             />
           );
         })}
