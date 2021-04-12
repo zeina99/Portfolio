@@ -12,6 +12,11 @@ const IndexPage = () => {
   return (
     <main>
       <title>Portfolio</title>
+      <meta
+        name="image"
+        property="og:image"
+        content="../../data/images/siteThumbnail.png"
+      />
       <LandingView />
       <Projects />
     </main>
