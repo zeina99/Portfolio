@@ -15,7 +15,7 @@ export default function HTML(props) {
         <meta
           name="image"
           property="og:image"
-          content="../../data/images/siteThumbnail.png"
+          content="https://zeinathabet.me/siteThumbnail.png"
         />
         {props.headComponents}
       </head>
