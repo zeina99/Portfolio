@@ -14,7 +14,7 @@
     "description": "Youtube Search Clone which utilizes the Youtube API that allows the user to search for and play videos",
     "githubLink": "https://github.com/zeina99/Youtube-Search-Clone",
     "imageUrl": "./images/YoutubeCloneSS.png",
-    "techUsed": ["HTML", "CSS", "JavaScript"],
+    "techUsed": ["HTML", "CSS", "JavaScript", "Youtube API"],
     "liveUrl": "https://youtube-clone-zeina.netlify.app/",
     "note": "Note: Screenshot above is taken from the actual project",
     "projectType": "Personal Project"
