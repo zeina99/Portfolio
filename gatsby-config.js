@@ -14,6 +14,7 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-transformer-json",
     "gatsby-transformer-sharp",
+    "gatsby-plugin-remove-serviceworker",
     {
       resolve: "gatsby-source-filesystem",
       options: {
