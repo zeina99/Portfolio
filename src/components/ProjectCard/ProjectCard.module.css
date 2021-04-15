@@ -1,11 +1,11 @@
 .card {
-  max-width: 23vw;
+  max-width: 27%;
 
   background-color: #ededed;
   font-size: large;
   border-radius: 10px;
   padding: 1.3rem;
-  margin: 10px 20px 10px 0;
+  margin: 10px;
 }
 .buttonLink {
   background-color: var(--headingColor);
@@ -23,4 +23,19 @@
   font-size: 0.9rem;
   width: 90%;
   margin: 0 auto;
+}
+@media (min-width: 340px) and (max-width: 730px) {
+  .card {
+    max-width: 90%;
+  }
+}
+@media (max-width: 999px) and (min-width: 731px) {
+  .card {
+    max-width: 60%;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1436px) {
+  .card {
+    max-width: 40%;
+  }
 }

@@ -9,6 +9,7 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  justify-content: center;
 }
 #name {
   font-weight: 600;
@@ -17,9 +18,9 @@
 }
 .about {
   font-size: 1.3rem;
-  width: 10vw;
-  padding: 0rem 4rem;
-  margin: 0 auto;
+  width: 20%;
+  padding: 0rem 2rem;
+  margin: 0 30px;
 }
 .links {
   display: flex;
@@ -34,4 +35,14 @@
   margin-bottom: 10vh;
   color: var(--headingColor);
   font-size: 3rem;
+}
+@media (max-width: 1000px) {
+  .maintext {
+    flex-direction: column;
+  }
+  .about {
+    width: 60%;
+    padding: 0rem 1rem;
+    margin: 0px 15px;
+  }
 }
