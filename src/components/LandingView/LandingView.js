@@ -17,7 +17,7 @@ function LandingView() {
         <div className={styles.about}>
           <p> 3rd year Undergraduate Computer Science Student.</p>
           <div className={styles.links}>
-            <a href="resume.pdf">Resume</a>
+            {/* <a href="resume.pdf">Resume</a> */}
 
             <a
               target="_blank"
